@@ -1,0 +1,71 @@
+/*
+    Style --> index
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Staatliches&display=swap');
+
+*{
+    text-decoration: none ;
+}
+
+body{
+background-image: url("./assets/img/Logo\ 2\ \(2\).jpg");
+}
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+#menu ul li {
+    display: inline;
+    font-size: 30px;
+    padding: 20%;
+    font-family: 'Staatliches', cursive;
+}
+#menu ul li a{
+    color: #004aad;
+}
+
+#img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+#titulo{
+
+    color: #001aff;
+    text-align: center;
+    font-size: 80px;
+    padding: 0%;
+    font-family: 'Inspiration', cursive;
+}
+@keyframes example {
+    0%   {background-color:rgb(255, 255, 255); left:0px; top:0px;}
+    25%  {background-color:rgb(161, 199, 255); left:200px; top:0px;}
+    50%  {background-color:rgb(253, 253, 253); left:200px; top:200px;}
+    75%  {background-color:rgb(161, 199, 255); left:0px; top:200px;}
+    100% {background-color:rgb(255, 255, 255); left:0px; top:0px;}
+  }
+  div {
+    position: -webkit-sticky;  
+    animation-name: example;
+    animation-duration: 5s;
+  }
+
+#subtitulo{
+
+    color: #001aff;
+    text-align: center;
+    font-size: 40px;
+    padding: 0%;
+    font-family: 'Inspiration', cursive;
+}
+
+#texto{
+
+    font-size: 20px;
+}
