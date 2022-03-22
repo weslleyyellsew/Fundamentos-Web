@@ -1,9 +1,18 @@
-var nome = window.document.querySelector('#nome')
+let nome = window.document.getElementById('nome')
 
-function validarNome(){
+let email = window.document.querySelector('#email')
 
- if(nome.value.length < 2){
-     alert('Arrasou GAY!!!');
- }
+let assunto = window.document.querySelector('#assunto')
+
+nome.style.width = "100%"
+
+function validaNome(){
+
+    if(nome.value.length < 2){
+        let txt = document.querySelector('txtNome')
+
+    txt.innerHTML
+        alert('NOME INVALIDO!!!')
+    }
 
 }
